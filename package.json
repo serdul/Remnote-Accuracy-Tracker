@@ -1,8 +1,13 @@
 {
   "private": true,
-  "name": "remnote-plugin-template-react",
+  "name": "remnote-accuracy-tracker",
   "version": "0.0.1",
+  "description": "RemNote plugin to track per-rem accuracy and export/import data (compact UI, JSON export).",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/serdul/Remnote-Accuracy-Tracker.git"
+  },
   "scripts": {
     "check-types": "tsc",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --color --progress --no-open",
